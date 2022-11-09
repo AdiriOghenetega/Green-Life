@@ -1,0 +1,436 @@
+body{
+        max-width: 100%;
+    }
+
+header{
+    background-image: url(./images/desktop/greenlife-header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30em;
+    width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+}
+.headerlogo h1{
+    font-size: 3em;
+    color: green;
+    margin: 0;
+}
+.firstsection{
+    
+    padding: 2em;
+    
+}
+.logo_navdetails{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.headernavdetails a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Alata', sans-serif;
+}
+.hamburger_navdetails{
+    display: flex;
+    position: relative;
+    word-spacing: 1.5em;
+}
+
+.hamburgerbutton{
+    position: relative;
+    display: none;
+}
+.hamburgerbutton img{
+    background-color: green;
+}
+.hamburgerbutton:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content{
+    display: none;
+    background-color: green;
+    position: absolute;
+    z-index: 2;
+}
+.dropdown-content a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 2em;
+    
+}
+.Headernote{
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    margin-top: 2em;
+    font-size: xx-large;
+    color: white;
+    border: 0.09em solid white;
+    padding: 1em;
+    width: fit-content;
+    font-weight: none;
+    word-spacing: 0.2em;
+    z-index: 1;
+}
+main{
+    width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        
+}
+.secondsection{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+    width: 100%;
+}
+.secondsection__container{
+    display: flex;
+    
+    padding: 4em;
+    
+    position: relative;
+   }
+.vr_image img{
+    z-index: 1;
+    height: 400px;
+     width: 600px;
+}
+.vr_info{
+    z-index: 2;
+    width: 25em;
+    height: 18em;
+    position: relative;
+    top: 5em;
+    right: 15%;
+    background-color: white;
+    padding: 5.5em 0.1em 1em 5em;
+    text-align: left;
+    
+}
+.vr_info h1{
+    font-size: xx-large;
+    position: relative;
+    padding-left: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.vr_info p{
+    
+    width: 25em;
+    position: relative;
+    padding-left: 2.2em;
+    line-height: 1.6;
+    font-family: 'Alata', sans-serif;
+    font-size: small;
+}
+.thirdsection{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  margin-top: 2em;
+    
+    width: 100%;
+    position: relative;
+}
+.thirdsection__container{
+position: relative;
+width: 100%;
+}
+.h1_button{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 4em;
+}
+
+.h1_info{
+    font-size: large;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+.photos{
+    position: relative;
+    padding: 0 4em;
+}
+.photolayerone{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.photo1{
+    background-image: url(./images/desktop/explore-green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15em;
+    height: 25em;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    /* margin-right: 0.5em; */
+    margin-bottom: 1em;
+    
+}
+.photo1 h1{
+    position: relative;
+    top: 13em;
+    right: -1em;
+}
+.photo2{
+    background-image: url(./images/desktop/live-green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15em;
+    height: 25em;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    /* margin-left: 2em; */
+    margin-bottom: 1em;
+    
+}
+.photo2 h1{
+    position: relative;
+    top: 13em;
+    right: -1em;
+}
+.photo3{
+    background-image: url(./images/desktop/stay-fit-green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15em;
+    height: 25em;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    /* margin-left: 2.5em; */
+    margin-bottom: 1em;
+}
+.photo3 h1{
+    position: relative;
+    top: 13em;
+    right: -1em;
+}
+.photo4{
+    background-image: url(./images/desktop/drink-green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15em;
+    height: 25em;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    /* margin-left: 2.5em; */
+    
+    margin-bottom: 1em;
+}
+.photo4 h1{
+    position: relative;
+    top: 13em;
+    right: -1em;
+}
+.photolayertwo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.photo5{
+    background-image: url(./images/desktop/touch-green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15em;
+    height: 25em;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    /* margin-right: 0.5em; */
+    margin-top: 1em;
+}
+.photo5 h1{
+    position: relative;
+    top: 13em;
+    right: -1em;
+}
+.photo6{
+    background-image: url(./images/desktop/breath-green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 30%;
+    width: 15em;
+    height: 25em;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    /* margin-left: 2em; */
+    margin-top: 1em;
+}
+.photo6 h1{
+    position: relative;
+    top: 13em;
+    right: -1em;
+}
+.photo7{
+    background-image: url(./images/desktop/nuture-green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15em;
+    height: 25em;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    /* margin-left: 2.5em; */
+    margin-top: 1em;
+}
+.photo7 h1{
+    position: relative;
+    top: 13em;
+    right: -1em;
+}
+.photo8{
+    background-image: url(./images/desktop/enjoy-green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15em;
+    height: 25em;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    /* margin-left: 2.5em; */
+    margin-top: 1em;
+}
+.photo8 h1{
+    position: relative;
+    top: 13em;
+    right: -1em;
+}
+footer{
+    background-color: green;
+    color: white;
+    margin-top: 5em;
+    width: 100%;
+        
+}
+.fourthsection{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+.firstpartfooter{
+    word-spacing: 2em;
+display: flex;
+flex-direction: column;
+gap: 1em;
+}
+.firstpartfooterlogo h1{
+    margin: 0;
+}
+.firstpartfooter a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+.secondpartfooter{
+    position: relative;
+    display: flex;
+flex-direction: column;
+gap: 1em;
+}
+.secondpartfooter p{
+    position: relative;
+   
+    
+}
+.footerlogos{
+    word-spacing:1em;
+}
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .vr_info{
+        right: 27%;
+    }
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .hamburgerbutton{
+        display: block;
+        color: green;
+    }
+    .hamburger_navdetails{
+        display: none;
+    }
+    .secondsection__container{
+        flex-direction: column;
+        
+    }
+    .vr_image img{
+        height: 250px;
+        width: 100%;
+    }
+    .vr_info{
+        right: 0;
+        width: 100%;
+        padding: 0;
+        top: 2em;
+    }
+    .vr_info p{
+        width: 100%;
+    }
+    .photos{
+        display: flex;
+        padding: 0;
+        align-items: center;
+        justify-content:center;
+        width: 100%;
+    }
+    .photolayertwo{
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+    .photolayerone{
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+    .photo4{
+        margin-bottom: 0;
+    }
+    .photo5{
+        margin-top: 0;
+    }
+    .h1_button{
+        padding: 1em;
+    }
+    .firstpartfooter a{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .footerlogos{
+        display: flex;
+        gap: .5em;
+    }
+    .footerlogos img{
+        width: 20px;
+        height: 20px;
+       
+    }
+    .logo_navdetails{
+        flex-direction: row-reverse;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    .Headernote{
+        font-size: 27px;
+    }
+    .photos{
+        flex-direction: column;
+    }
+    .photo5{
+        margin-top: 1em;
+    }
+    .fourthsection{
+        padding: 1em;
+        flex-direction: column;
+        gap: 2em;
+    }
+}
