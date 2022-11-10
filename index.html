@@ -18,7 +18,7 @@
                 <div class="headerlogo">
                     <h1>greenlife</h1>
                 </div>
-                <div class="hamburgerbutton" >
+                <div class="hamburgerbutton" onclick={showDropDown()} >
                     <img src="./images/icon-hamburger.svg" alt="" height="17em" width="23em">
                     <div id="myDropdown" class="dropdown-content">
                         <a href="#">About</a>
@@ -137,6 +137,12 @@
     </footer>
 
     <script>
+        const dropdown = document.querySelector(".dropdown-content")
+        console.log(dropdown)
+        function showDropDown(){
+            console.log("clicked")
+          dropdown.classList.toggle("display")
+        }
         // function convert(value){
         //     let degree;
         //     if (value=='C'){

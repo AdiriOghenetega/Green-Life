@@ -44,14 +44,15 @@ header{
 .hamburgerbutton img{
     background-color: green;
 }
-.hamburgerbutton:hover .dropdown-content{
-    display: block;
-}
+
 .dropdown-content{
     display: none;
     background-color: green;
     position: absolute;
     z-index: 2;
+}
+.display{
+    display: block;
 }
 .dropdown-content a{
     color: white;
