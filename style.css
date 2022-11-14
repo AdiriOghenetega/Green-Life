@@ -6,7 +6,7 @@ header{
     background-image: url(./images/desktop/greenlife-header-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30em;
+    height: auto;
     width: 100%;
         margin-left: auto;
         margin-right: auto;
@@ -318,7 +318,8 @@ footer{
     word-spacing: 2em;
 display: flex;
 flex-direction: column;
-gap: 1em;
+justify-content: space-between;
+height: 4em;
 }
 .firstpartfooterlogo h1{
     margin: 0;
@@ -332,7 +333,8 @@ gap: 1em;
     position: relative;
     display: flex;
 flex-direction: column;
-gap: 1em;
+justify-content: space-between;
+height: 4em;
 }
 .secondpartfooter p{
     position: relative;
@@ -342,13 +344,15 @@ gap: 1em;
 .footerlogos{
     word-spacing:1em;
 }
-@media only screen and (max-width: 1200px){
+
+
+@media only screen and (max-device-width: 1200px){
     /*Tablets [601px -> 1200px]*/
     .vr_info{
         right: 27%;
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-device-width: 600px){
 	/*Big smartphones [426px -> 600px]*/
     .hamburgerbutton{
         display: block;
@@ -400,25 +404,34 @@ gap: 1em;
     .h1_button{
         padding: 1em;
     }
+    .firstpartfooter{
+        height: 11em;
+       
+    }
     .firstpartfooter a{
         display: flex;
         flex-direction: column;
-        
+        align-items: space-between;
+        height: 1.5em;
+    }
+    .secondpartfooter{
+        height : 11em;
     }
     .footerlogos{
         display: flex;
-        gap: .5em;
+        justify-content: space-between;
+        width: 50%;
     }
     .footerlogos img{
         width: 20px;
         height: 20px;
-       
     }
     .logo_navdetails{
         flex-direction: row-reverse;
     }
+    
 }
-@media only screen and (max-width: 425px){
+@media only screen and (max-device-width: 425px){
 	/*Small smartphones [325px -> 425px]*/
     .Headernote{
         font-size: 27px;
@@ -432,6 +445,15 @@ gap: 1em;
     .fourthsection{
         padding: 1em;
         flex-direction: column;
-        gap: 2em;
+       justify-content: space-between;
+       height: 15em;
+    }
+    .h1_button{
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .secondpartfooter{
+        height : 3em;
     }
 }
